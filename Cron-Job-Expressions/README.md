@@ -32,13 +32,7 @@ A cron expression is made up of five fields separated by spaces
 │ │ └─────── Day of the month (1 - 31)
 │ └───────── Hour (0 - 23)
 └─────────── Minute (0 - 59)
-Field	Allowed Values	Description
-Minute	0-59	Minute of the hour
-Hour	0-23	Hour of the day
-Day of Month	1-31	Day of the month
-Month	1-12 or JAN-DEC	Month of the year
-Day of Week	0-6 or SUN-SAT	Day of the week (0 and 7 are Sunday)
-* represents every.
+
 
 So, * * * * * as a complete cron expression would mean run the task every minute of every hour, every day of every month, every month, and every day of the week
 
