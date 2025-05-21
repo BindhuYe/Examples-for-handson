@@ -25,13 +25,7 @@ Irrespective of where we use the cron expressions, the cron syntax remains the s
 
 A cron expression is made up of five fields separated by spaces
 
-* * * * *
-│ │ │ │ │
-│ │ │ │ └─── Day of the week (0 - 7) (Sunday is both 0 and 7)
-│ │ │ └───── Month (1 - 12)
-│ │ └─────── Day of the month (1 - 31)
-│ └───────── Hour (0 - 23)
-└─────────── Minute (0 - 59)
+![image](https://github.com/user-attachments/assets/18d637dd-0599-4fa9-8826-a87de69224f1)
 
 
 So, * * * * * as a complete cron expression would mean run the task every minute of every hour, every day of every month, every month, and every day of the week
